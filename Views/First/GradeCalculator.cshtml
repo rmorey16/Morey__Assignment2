@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Calculate Your Grade";
+}
+
+<body>
+    <div class="center">
+        <h3>Enter your grades in the following categories:</h3>
+        <form>
+
+            <label>Assignments:</label>
+            <input id="assignments" />
+            <br />
+
+            <label>Group Projects:</label>
+            <input id="group_projects" />
+            <br />
+
+            <label>Quizzes:</label>
+            <input id="quizzes" />
+            <br />
+
+            <label>Exams:</label>
+            <input id="exams" />
+            <br />
+
+            <label>INTEX:</label>
+            <input id="intex" />
+            <br />
+            <br />
+
+            <input type="submit" value="Calculate my grade" id="calculateGrade">
+        </form>
+        <script src="\node_modules\jquery\dist\jquery.min.js"></script>
+        <script src="~/js/javascript.js"></script>
+    </div>
+    
+</body>
